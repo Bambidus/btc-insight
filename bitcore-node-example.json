@@ -1,0 +1,18 @@
+{
+  "network": "livenet",
+  "port": 30001,
+  "services": [
+    "bitcoind",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "/home/forkedBitcoreInsight/forkedBTC/blockchain_data",
+        "exec": "/home/forkedBitcoreInsight/forkedBTC/bitcoind"
+      }
+    }
+  }
+}
